@@ -1,0 +1,1 @@
+console.log(navigator.mediaDevices.getUserMedia(audio));
