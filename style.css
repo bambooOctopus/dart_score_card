@@ -31,10 +31,7 @@
     border: solid 1px lightgreen;
     width: 250px;
     display: flex;
-    flex-direction: column;
-   
-    
-    
+    flex-direction: column;  
 
     
 }
@@ -49,20 +46,19 @@
     
 }
 
-.numbers {
-    border: solid 1px lightgray;
-    padding: 5rem 2rem 2rem;
+.player-input {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    align-items: center;
-    justify-content: center;
 }
+
+
 
 .player-buttons {
     border: solid 1px pink;
-    height: 2rem;
-    margin-top: 2rem;
+    
+    
 
 }
 
@@ -74,4 +70,36 @@
 .buttons {
 
 }
+
+.numbers {
+    border: solid 1px lightgray;    
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+   
+   
+}
+
+.numbers-header {
+
+    border: solid 1px green;
+    width: 100%;
+    text-align: center;
+
+
+    height: 7rem;
+    
+
+}
+
+.numbers-div {
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
 
