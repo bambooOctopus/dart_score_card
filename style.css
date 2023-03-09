@@ -24,13 +24,29 @@
     gap: 4rem;
     justify-content: center;
     margin-top: 5rem;
+    height: 70vh;
 }
 
 .player {
     border: solid 1px lightgreen;
-    height: 400px;
-    width: 200px;
-    padding: 2rem;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+
+    
+}
+
+.player-header {
+    border: solid 1px green;
+    width: 100%;
+    text-align: center;
+
+
+    height: 7rem;
+    
 }
 
 .numbers {
