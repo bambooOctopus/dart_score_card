@@ -3,10 +3,25 @@
     margin: 0;
 }
 
-.body {
+.body { 
+   
+   
+}
+
+.header {
+    height: 3rem;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0rem .8rem;
+
+}
+
+.game-div {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 4rem;
     justify-content: center;
     margin-top: 5rem;
 }
@@ -15,4 +30,32 @@
     border: solid 1px lightgreen;
     height: 400px;
     width: 200px;
+    padding: 2rem;
 }
+
+.numbers {
+    border: solid 1px lightgray;
+    padding: 5rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-buttons {
+    border: solid 1px pink;
+    height: 2rem;
+    margin-top: 2rem;
+
+}
+
+.tally {
+    
+    
+}
+
+.buttons {
+
+}
+
